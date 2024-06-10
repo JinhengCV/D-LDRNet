@@ -4,7 +4,7 @@ D-LDRNet: Monocular vision framework for all-weather safe ranging monitoring of 
 This open access dataset and official code is publicly available for our paper work "D-LDRNet: Monocular vision framework for all-weather safe ranging monitoring of vehicle in transmission lines". 
 
 <p align="center">
-<img src="./D-LDRNet.png" width="800"/>
+<img src="./video.gif" width="600"/>
 </figure> 
 </p>
 
