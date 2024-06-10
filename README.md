@@ -18,7 +18,7 @@ The model architecture is shown as follow:
 </p>
 
 ## datasets
-Our recording platform is a commercial autonomous surface vehicle. The platform adopts a deployable sensor configuration and is equipped with four surrounding cameras, a front-view LiDAR, six surrounding millimeter-wave radars, and an inertial navigation system (INS). The sensor setup of our platform is also illustrated in Figure. 2. The LiDAR and MMW radar systems provide accurate location measurements for the surrounding water surface system. With respect to camera configuration, we equipped 120° pinhole RGB cameras on the front view and back view of our recording platform, and each side of the boat is equipped with a fisheye camera for a high field of view. The detailed information about WSBEV dataset is described as follows:
+We designs an all-weather detection and ranging framework that incorporates low-light enhancement for safety monitoring of vehicles in transmission lines. As an end-to-end method, it can obtain three-dimensional information of hazardous objects using only a monocular camera. The detailed information about dataset is described as follows:
 
 ### Data structure
 
@@ -39,8 +39,13 @@ Our recording platform is a commercial autonomous surface vehicle. The platform 
   - point cloud
 ```
 
-## Visualization Samples
+## Samples
 <p align="center">
-<img src="./fig/3.png" width="600"/>
+<img src="./datasets/train/images/294.jpg" width="400"/>
+</figure> 
+</p>
+
+<p align="center">
+<img src="./point cloud-2.png" width="400"/>
 </figure> 
 </p>
