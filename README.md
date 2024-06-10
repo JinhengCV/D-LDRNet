@@ -1,18 +1,18 @@
 # D-LDRNet
 D-LDRNet: Monocular vision framework for all-weather safe ranging monitoring of vehicle in transmission lines
-# WSBEV datasets
-This open access dataset and official code is publicly available for surrounding-view water sufrace bird's eye view segmentation task, along with our paper work "Surround-view Water Surface BEV Segmentation for Autonomous Surface Vehicles: Dataset, Baseline and Hybrid-BEV Network". 
+# Datasets
+This open access dataset and official code is publicly available for our paper work "D-LDRNet: Monocular vision framework for all-weather safe ranging monitoring of vehicle in transmission lines". 
 
 <p align="center">
-<img src="./fig/vedio.gif" width="600"/>
+<img src="./D-LDRNet.png" width="800"/>
 </figure> 
 </p>
 
 ## Abstract
-Autonomous surface vessels (ASVs) are growing rapidly due to their ability to execute hazardous and time-consuming missions over water surfaces. Recently, camera-based surround-view bird’s eye view (BEV) segmentation has attracted increasing attention because of its popular application in autonomous driving. However, most existing surround-view BEV segmentation studies have focused on road scenes for autonomous cars, and the development of water surface surround-view BEV segmentation has been relatively slow due to the absence of water surface BEV datasets. Different from road scenes with complex dynamic scenes, water surface BEV segmentation task also face new interference like vessel swaying and reflection interference. To address these problems and stimulate relevant research, we first introduce the WSBEV dataset, a surround-view visual segmentation dataset on water surface scenes. Notably, our compiled WSBEV utilizes a hybrid camera configuration and contains pinhole cameras and fisheye cameras with different focal lengths, which brings new challenges for the surround-view BEV segmentation method. Then, to overcome the challenges of water surface surround-view BEV segmentation task, we propose a novel water surface BEV segmentation network named Hybrid-BEV that supports hybrid camera inputs and comprises four modules. 1) The shared backbone can extract different features; 2) The geometry-based view transformer module transfers the extracted feature from the perspective view to BEV space; 3) The pose query adjustment module introduces vessel pose data as learning network parameters to suppress ASV reflection interference; 4) The segmentation head predicts BSV segmentation results. Compared to other baseline methods, our Hybrid-BEV achieves excellent accuracy in our WSBEV dataset. Extensive experiments validate the effectiveness of our approach and the exceptional generalizability of the WSBEV dataset.
+Efficient monitoring and early warning of hazards on transmission lines are crucial for the safety of both the lines themselves and the surrounding personnel. Among them, the monitoring for the real-time distance of construction machinery and other vehicles approaching power lines is an effective and cost-efficient method of hazard detection. This paper proposes a novel architecture named D-LDRNet for all-weather distance monitoring based on monocular vision, which can obtain three-dimensional information of hazardous objects using only a monocular camera. Firstly, an innovative feature extraction network is constructed to reduce redundant convolutional calculations and parameters, coupled with new upsampling operators and optimized detection head networks using Involution. Then, an improved low-light enhancement network is introduced to enhance the recognition performance of the detection model in nighttime scenarios. Finally, leveraging the pose matching relationship between images and point clouds, a ranging module for hazardous objects is designed and integrated into the constructed hazard detector. Experimental results conducted on surveillance images from different transmission line scenarios demonstrate that D-LDRNet not only possesses a more lightweight network structure but also exhibits optimal hazard detection performance in nighttime construction scenes. Experiments conducted on surveillance videos further confirm the effectiveness of the proposed ranging scheme and its industrial application significance.
 
 <p align="center">
-<img src="./fig/1.png" width="400"/>
+<img src="./D-LDRNet.png" width="600"/>
 </figure> 
 </p>
 
