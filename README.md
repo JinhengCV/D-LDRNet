@@ -1,7 +1,7 @@
 # D-LDRNet
 This open access dataset and official code is publicly available for our paper work "D-LDRNet: Monocular vision framework for all-weather safe ranging monitoring of vehicle in transmission lines". 
 
-#NEWS
+# NEWS
 Due to the amount of research involved, the time to maintain this implementation code is very limited. We will compile the complete code and upload it to this repository as soon as possible.
 
 ## Abstract
