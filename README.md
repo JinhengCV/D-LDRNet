@@ -12,11 +12,11 @@ Efficient monitoring and early warning of hazards on transmission lines are cruc
 </figure> 
 </p>
 
-## Methodology
+## Overview
 The model architecture is shown as follow:
 
 <p align="center">
-<img src="./D-LDRNet.png" width="600"/>
+<img src="./D-LDRNet.png" width="1000"/>
 </figure> 
 </p>
 
